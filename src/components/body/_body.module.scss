@@ -1,0 +1,12 @@
+@import '../../styles/utils.scss';
+
+.root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $md-grey-800;
+  padding: 22px;
+
+  color: $md-grey-100;
+  font-size: 1.8rem;
+  line-height: 1.3;
+}

@@ -1,0 +1,64 @@
+{
+  // Place your scroll-accelerator workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "__fc": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "_fc",
+    "body": ["import React from 'react';", "", "export const ${1:$TM_FILENAME_BASE} = () => {", "  return null;", "};"],
+    "description": "Create functional component"
+  },
+  "__importStyle": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "_styles",
+    "body": ["${1:import cm from 'classnames';}", "${2:import styles from './_$TM_FILENAME_BASE.module.scss';}"],
+    "description": "Import css module"
+  },
+  "__className": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "_class",
+    "body": ["className={styles$1}"],
+    "description": "ClassName"
+  },
+  "__utils": {
+    "scope": "scss",
+    "prefix": "_utils",
+    "body": ["@import 'styles/utils.scss';"],
+    "description": "Import scss utils"
+  },
+  "__logger": {
+    "scope": "typescript,typescriptreact,javascriptreact",
+    "prefix": "_logger",
+    "body": [
+      "import { useLogger } from 'components/_hooks/use-logger.hook';",
+      "const logger = useLogger('${1:${CLIPBOARD}}');"
+    ],
+    "description": "ClassName"
+  },
+  "__dispatch": {
+    "scope": "typescript,typescriptreact,javascriptreact",
+    "prefix": "_dsp",
+    "body": ["import { useAppDispatch } from 'store/_hooks';", "const dispatch = useAppDispatch();"],
+    "description": "ClassName"
+  },
+  "__useEffect": {
+    "scope": "typescript,typescriptreact,javascriptreact",
+    "prefix": "_useEffect",
+    "body": ["useEffect(() => {}, []);"],
+    "description": ""
+  }
+}
