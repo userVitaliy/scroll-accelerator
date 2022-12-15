@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scroll-accelerator/static/css/main.e9fb3ba2.css",
-    "main.js": "/scroll-accelerator/static/js/main.ada03fcc.js",
+    "main.js": "/scroll-accelerator/static/js/main.ce13b4bf.js",
     "index.html": "/scroll-accelerator/index.html",
     "main.e9fb3ba2.css.map": "/scroll-accelerator/static/css/main.e9fb3ba2.css.map",
-    "main.ada03fcc.js.map": "/scroll-accelerator/static/js/main.ada03fcc.js.map"
+    "main.ce13b4bf.js.map": "/scroll-accelerator/static/js/main.ce13b4bf.js.map"
   },
   "entrypoints": [
     "static/css/main.e9fb3ba2.css",
-    "static/js/main.ada03fcc.js"
+    "static/js/main.ce13b4bf.js"
   ]
 }
