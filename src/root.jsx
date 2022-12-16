@@ -1,11 +1,11 @@
 import React from 'react';
 import { Body } from './components/body/body';
-import { Scroll } from './components/scroll/scroll';
+import { Track } from './components/track/track';
 
 export const Root = () => {
   return (
     <Body>
-      <Scroll />
+      <Track />
     </Body>
   );
 };

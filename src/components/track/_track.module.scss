@@ -1,0 +1,51 @@
+@import '../../styles/utils.scss';
+
+$scrollbar-height: 13px;
+$scrollbar-width: 13px;
+
+%scrollbar {
+  &::-webkit-scrollbar {
+    width: $scrollbar-width;
+    height: $scrollbar-height;
+  }
+  &::-webkit-scrollbar-track {
+    background: $md-grey-600;
+    border-radius: 0px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $md-orange-600;
+    border-radius: 0px;
+  }
+}
+
+.Track {
+  @extend %scrollbar;
+
+  overflow: auto;
+  margin: 22px 0;
+  height: 94px;
+  width: 100%;
+
+  .Track__feed {
+    --track-transition-speed: 0.2;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 77px;
+    transition: width var(--track-transition-speed);
+  }
+  .Track__cell {
+    height: 100%;
+    flex: 0 0 10%;
+    max-width: 10%;
+    background-color: $md-grey-500;
+
+    color: $md-grey-800;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 77px;
+    border-right: 4px solid $md-grey-800;
+  }
+}
