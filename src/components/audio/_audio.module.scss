@@ -1,0 +1,12 @@
+@import '../../styles/utils.scss';
+
+.root {
+  .body {
+    height: 100px;
+    
+    > wave {
+      @extend %scrollbar;
+      height: 100% !important;
+    }
+  }
+}

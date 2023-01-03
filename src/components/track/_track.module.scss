@@ -1,31 +1,13 @@
 @import '../../styles/utils.scss';
 
-$scrollbar-height: 13px;
-$scrollbar-width: 13px;
-
-%scrollbar {
-  &::-webkit-scrollbar {
-    width: $scrollbar-width;
-    height: $scrollbar-height;
+.Track {  
+  .Track__body {
+    @extend %scrollbar;
+    margin: 22px 0;
+    height: 94px;
+    width: 100%;
+    overflow: auto;
   }
-  &::-webkit-scrollbar-track {
-    background: $md-grey-600;
-    border-radius: 0px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: $md-orange-600;
-    border-radius: 0px;
-  }
-}
-
-.Track {
-  @extend %scrollbar;
-
-  overflow: auto;
-  margin: 22px 0;
-  height: 94px;
-  width: 100%;
-
   .Track__feed {
     --track-transition-speed: 0.2;
 
