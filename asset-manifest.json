@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/scroll-accelerator/static/css/main.4a2e3480.css",
-    "main.js": "/scroll-accelerator/static/js/main.48851f5d.js",
+    "main.css": "/scroll-accelerator/static/css/main.0c68ec76.css",
+    "main.js": "/scroll-accelerator/static/js/main.f05f8f84.js",
     "static/media/Shouse-Love_Tonight-[AudioTrimmer.com].mp3": "/scroll-accelerator/static/media/Shouse-Love_Tonight-[AudioTrimmer.com].9b620ca64aab7a8d15c4.mp3",
     "index.html": "/scroll-accelerator/index.html",
-    "main.4a2e3480.css.map": "/scroll-accelerator/static/css/main.4a2e3480.css.map",
-    "main.48851f5d.js.map": "/scroll-accelerator/static/js/main.48851f5d.js.map"
+    "main.0c68ec76.css.map": "/scroll-accelerator/static/css/main.0c68ec76.css.map",
+    "main.f05f8f84.js.map": "/scroll-accelerator/static/js/main.f05f8f84.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a2e3480.css",
-    "static/js/main.48851f5d.js"
+    "static/css/main.0c68ec76.css",
+    "static/js/main.f05f8f84.js"
   ]
 }
